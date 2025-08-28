@@ -1,0 +1,23 @@
+div.section p {
+    text-align: justify;
+}
+
+/* força todas as tabelas a respeitar a largura definida */
+table {
+  table-layout: fixed !important;
+}
+
+/* permite que o texto quebre naturalmente dentro das células */
+td, th {
+  white-space: normal !important;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* se você tiver divs internas, também garanta quebra de texto */
+td div, th div {
+  white-space: normal !important;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: justify; /* <-- aqui aplicamos o texto justificado */
+}

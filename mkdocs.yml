@@ -1,0 +1,27 @@
+site_name: Facint - Projeto de Extensão 2025
+extra_css:
+  - css/extra.css
+extra_javascript:
+  - javascript/extra.js
+theme:
+  name: readthedocs
+  logo: https://facint.edu.br/assets/images/logo/logo-1.png
+  language: pt
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - rust
+markdown_extensions:
+  - footnotes
+nav:
+  - Principal: 
+    - Regulamento: index.md
+  - Projeto prático:
+    - Instruções: projeto/instrucoes.md
+    - Exemplo de mockup: projeto/exemplo.md
+  - Material escrito:
+    - Instruções: material/instrucoes.md
+    - Exemplo de documentação: material/exemplo.md
+  - Vídeo gravado:
+    - Instruções: video/instrucoes.md
+    - Exemplo de vídeo: video/modelo.md
