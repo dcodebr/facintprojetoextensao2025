@@ -53,8 +53,8 @@ Em resumo, o MedMatch atende qualquer pessoa que deseja agilidade, segurança e 
 
 <table style="width: 695px;table-layout: fixed;">
 <tr>
-    <th>Tela</th>
-    <th>Descrição funcional</td>
+    <th><center>Tela</center></th>
+    <th><center>Descrição funcional</center></td>
 </tr>
 <tr>
     <td><img src="../../projeto/export/pages/01login.png" alt="Tela de login" width="500" height="350"></th>

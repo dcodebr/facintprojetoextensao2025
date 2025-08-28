@@ -1,4 +1,4 @@
-div.section p {
+p {
     text-align: justify;
 }
 
@@ -20,4 +20,10 @@ td div, th div {
   word-wrap: break-word;
   overflow-wrap: break-word;
   text-align: justify; /* <-- aqui aplicamos o texto justificado */
+}
+
+/* Destacar itens de primeiro nível no menu lateral */
+.md-nav__item--nested > .md-nav__link {
+    font-weight: bold;
+    color: #1565c0; /* Azul forte */
 }

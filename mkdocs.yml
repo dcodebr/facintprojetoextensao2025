@@ -1,16 +1,33 @@
-site_name: Facint - Projeto de Extensão 2025
+site_name: FACINT - Projeto de Extensão 2025
 extra_css:
   - css/extra.css
 extra_javascript:
   - javascript/extra.js
 theme:
-  name: readthedocs
+  name: material
   logo: https://facint.edu.br/assets/images/logo/logo-1.png
   language: pt
+  palette:
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Alternar para modo escuro
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Alternar para modo claro
+  features:
+    - navigation.expand
   highlightjs: true
   hljs_languages:
     - yaml
     - rust
+plugins:
+  - search
 markdown_extensions:
   - footnotes
 nav:
