@@ -8,6 +8,12 @@ No vídeo, você deve se apresentar, informando de início seu nome, curso da Fa
 
 O Professor Alex Rocha elaborou um roteiro de apresentação, que pode ser utilizado como guia caso você tenha dúvidas ou dificuldades de como apresentar. Ele também disponibilizou um vídeo gravado, que pode ser acessado clicando no menu [***Gravação de Vídeo ⇒ Exemplo de vídeo***](./modelo.md).
 
+Algumas ferramentas recomendadas para a gravação do vídeo:
+
+✅	**Clipchamp**  
+✅	**Canva**  
+✅	**OBS Studio**
+
 ## Roteiro de gravação
 
 ```text
